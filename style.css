@@ -1,0 +1,65 @@
+body {
+  font-family: "Oswald", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding:0;
+  min-height:100vh;
+  background-image: url(img/rbf_background_new.png);
+  background-size:cover;
+  background-position: 50%;
+}
+header {
+  background-color: #6f6f6f;
+  padding: 20px;
+  text-align: center;
+  color:white;
+}
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2rem;
+}
+nav a:hover {
+  text-decoration: underline;
+  color:#00bcd4;
+}
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.social-media {
+  text-align: center;
+  margin: 30px 0;
+}
+.social-media a {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+.social-media a:hover {
+  color: #00bcd4;
+}
+footer {
+  background-color: #6f6f6f;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
