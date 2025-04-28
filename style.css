@@ -1,79 +1,116 @@
-body{
-  font-family: "Oswald", serif;
-  font-weight: 400;
-  font-style: normal;
-  margin: 0;
-  padding:0;
-  min-height:100vh;
-  background-image: url(img/galaxy_rbf_background.png);
-  background-size:cover;
-  background-position: 50%;
+body {
+    font-family: "Oswald", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding:0;
+    min-height:100vh;
+    background-image: url(img/galaxy_rbf_background.png);
+    background-size:cover;
+    background-position: 50%;
 }
 header {
-  background-color:#4a404e;
-  padding: 20px;
-  text-align: center;
-  color:rgb(254, 251, 251);
-  font-size: 1.0rem;
+    background-color:#4a404e;
+    padding: 20px;
+    text-align: center;
+    color:rgb(254, 251, 251);
+    font-size: 1.0rem;
 }
 header a {
-  color:#ffffff;
-  text-decoration: none;
-  margin: 0 15px;
-  font-size:1.0rem;
-  text-align:center;
+    color:#ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size:1.0rem;
+    text-align:center;
 }
 header a:hover {
-  text-decoration:underline;
-  color:#00bcd4;
+    text-decoration:underline;
+    color:#00bcd4;
 }
 h1 {
-  margin: 0;
-  font-size: 2.5rem;
-  text-align:center;
-  color:white;
+    margin: 0;
+    font-size: 2.5rem;
+    text-align:center;
+    color:white;
 }
 .content {
- background-color: transparent;
-opacity:calc(.94);
+    background-color: transparent;
+    opacity:calc(.94);
 
 }
 .social-media {
-  text-align: center;
-  margin: 30px 0;
-  font-size:0.8rem;
-  color:#ffffff;
+    text-align: center;
+    margin: 30px 0;
+    font-size:0.8rem;
+    color:#ffffff;
 }
 .social-media a {
-  color: #ffffff;
-  text-decoration: none;
-  margin: 0 10px;
-  font-size: 0.8rem;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 0.8rem;
 }
 .social-media a:hover {
-  color: #00bcd4;
-  text-decoration:underline;
+    color: #00bcd4;
+    text-decoration:underline;
 }
-footer {
-  background-color:#4a404e;
+section#team {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 3.75% 8.3333333333% 11.25%;
   text-align: center;
-  padding: 10px;
-  margin-top: 20px;
+  margin: 0 auto;
+  min-height: auto;
+  position: relative;
 }
-footer p {
-  margin: 0;
-  font-size: 0.8rem;
-  color:#ffffff
+section#team .image-row {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 96px 0;
+  max-width: none;
 }
-body.second-page {
-  font-family: "Oswald", serif;
-  font-weight: 400;
-  font-style: normal;
-  margin: 0;
-  padding:0;
-  min-height:100vh;
-  background-image: url(img/rbf_black_background.png);
-  background-size:cover;
-  background-position: 50%;
-  color: white;
+section#team .image-row img {
+  width: 32%;
+  margin-bottom: 32px;
+}
+section#team ul,
+section#team p {
+  margin: 24px;
+  max-width: 66%;
+}
+@media screen and (max-width: 992px) {
+  section#team {
+    padding: 16px;
+  }
+  section#team .image-row {
+    margin: 32px 0;
+  }
+}  
+
+  footer {
+    background-color:#4a404e;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+  footer p {
+    margin: 0;
+    font-size: 0.8rem;
+    color:#ffffff
+}
+  body.second-page {
+    font-family: "Oswald", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding:0;
+    min-height:100vh;
+    background-image: url(img/rbf_black_background.png);
+    background-size:cover;
+    background-position: 50%;
+    color: white;
 }
